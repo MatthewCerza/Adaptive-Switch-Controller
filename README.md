@@ -6,9 +6,9 @@ The adaptive switch controller project is aimed at helping people with Tourette'
 <br>
 Inputs are filtered (configured by swsh.c) in order to ignore unintended inputs. The ideal setup includes pressure sensitive face buttons. If the user presses a button that is outside of a "normal" pressure range, the input is ignored and not passed through to the switch. Furthermore, the acceptable input range can be adjusted as the user plays (disabled by default).
 <br>
-![](ACME_controller.jpeg)
+![](https://github.com/Matthew92007/Adaptive-Switch-Controller/blob/main/doc/ACME_controller.jpeg)
 The front of our controller. All of the arcade-style buttons are pressure sensitive and configured to ignore unintentional inputs.
-![](ACME_controller_wiring.jpeg)
+![](https://github.com/Matthew92007/Adaptive-Switch-Controller/blob/main/doc/ACME_controller_wiring.jpeg)
 The inside wiring of the controller. Running analogue sensors to the face buttons without a PCB made wire management a challenge.
 <br>
 # Flashing code to an Arduino Uno
