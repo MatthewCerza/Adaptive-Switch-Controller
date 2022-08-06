@@ -14,6 +14,8 @@ The inside wiring of the controller. Running analogue sensors to the face button
 # Flashing code to an Arduino Uno
 Warning: If you flash the USB IC you will not be able to flash regular code to the Arduino. If you wish to flash code to the main chip (ATmega 328p) or otherwise restore the Arduino to it's factory configuration, see the bottom of this section.
 
+NOTE: If you would like to compile this code, the latest version of lufa must be downloaded and extracted into the same directory as the project.
+
 1. Compile swsh.c using the make command in the main project directory
 2. Flash the main ATmega 328p controller using the following command. Make sure you are in the main project directory. Replace the /dev/cu.usbmodem address with wherever your Uno is located on your system. If you do not know, you can find out through the Arduino IDE under "devices".
 <code>avrdude -F -V -c arduino -p ATMEGA328P -P /dev/cu.usbmodem14101 -b 115200 -U flash:w:swsh.hex</code>
